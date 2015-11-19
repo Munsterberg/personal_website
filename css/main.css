@@ -1,0 +1,76 @@
+/* Default 
+===================== */
+* {
+  margin: 0;
+  padding: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+.wrapper {
+  display: flex;
+  min-height: 100%; }
+
+/* Nav
+===================== */
+.os-nav {
+  position: absolute;
+  width: 220px; }
+
+.content {
+  flex: 1;
+  padding: 30px;
+  background: #fff;
+  transform: translate3d(0, 0, 0);
+  transition: transform .3s; }
+
+.content.isOpen {
+  transform: translate3d(220px, 0, 0); }
+
+.os-trigger {
+  cursor: pointer; }
+  .os-trigger:before {
+    font: 42px fontawesome; }
+
+.os-title {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  color: #eee;
+  border-bottom: 1px solid #222;
+  background: #2a2a2a; }
+
+.os-sidebar li a {
+  position: relative;
+  display: block;
+  padding: 15px 15px 15px 50px;
+  font-size: 15px;
+  color: #000;
+  border-bottom: 1px solid #222;
+  background: #717171;
+  color: #fff;
+  font-family: "Arimo", sans-serif;
+  text-decoration: none; }
+  .os-sidebar li a:before {
+    font: 14px fontawesome;
+    position: absolute;
+    top: 14px;
+    left: 20px; }
+
+.os-fa {
+  padding-right: 10px;
+  font-size: 15px; }
+
+/* Grid
+===================== */
+/* Media Queries
+===================== */
+
+/*# sourceMappingURL=main.css.map */
