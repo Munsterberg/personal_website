@@ -22,7 +22,8 @@ html, body {
   min-height: 200px;
 
   h1 {
-    margin: 50px 0px 50px 0px;
+    padding: 50px 0px 50px 0;
+    margin: 0;
     text-align: center;
   }
 }
@@ -31,6 +32,51 @@ html, body {
   padding: 10px 0px 0px 10px;
   cursor: pointer;
   font-size: 30px;
+}
+
+.nav-hidden {
+  display: none;
+}
+
+.menu-collapsed {
+  transition: all .25s;
+  position: fixed;
+  height: 36px;
+  width: 36px;
+  z-index: 1;
+
+  ul {
+    transition: all .05s;
+    position: fixed;
+    left: -9000px;
+  }
+}
+
+.menu-expanded {
+  transition: all .25s;
+  text-align: center;
+  line-height: 200px;
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.85);
+
+  ul {
+    transition: all .05s;
+    position: relative;
+    left: 0;
+    z-index: 2;
+  }
+
+  a {
+    transition: all .15s;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    padding: 5px;
+  }
 }
 
 /* Content
