@@ -22,16 +22,19 @@ html, body {
   min-height: 200px;
 
   h1 {
-    padding: 50px 0px 50px 0;
+    padding: 50px 0px 45px 0;
     margin: 0;
     text-align: center;
   }
 }
 
 .nav-trigger {
-  padding: 10px 0px 0px 10px;
+  padding: 10px 40px 10px 10px;
   cursor: pointer;
   font-size: 30px;
+  background-color: rgba(139, 139, 139, 0.5);
+  border-radius: 5px;
+  border: 1px solid #545454;
 }
 
 .nav-hidden {
@@ -71,7 +74,7 @@ html, body {
   }
 
   a {
-    transition: all .15s;
+    transition: all .3s;
     text-decoration: none;
     color: #fff;
     font-size: 2em;
