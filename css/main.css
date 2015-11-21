@@ -25,6 +25,11 @@ html, body {
   cursor: pointer;
   font-size: 30px; }
 
+/* Content
+===================== */
+.content h1 span {
+  color: #ffc107; }
+
 /* Grid
 ===================== */
 /* Media Queries

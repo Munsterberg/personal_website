@@ -18,7 +18,7 @@ html, body {
 ===================== */
 .main-header {
   width: 100%;
-  background-color: #27ae60;
+  background-color: $primary-color;
   min-height: 200px;
 
   h1 {
@@ -32,6 +32,13 @@ html, body {
   cursor: pointer;
   font-size: 30px;
 }
+
+/* Content
+===================== */
+.content h1 span {
+  color: $accent-color;
+}
+
 
 /* Grid
 ===================== */

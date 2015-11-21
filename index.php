@@ -6,6 +6,10 @@
     <div class="nav-trigger"><i class="fa fa-bars"></i></div>
     <div class="logo"><h1>Logo</h1></div>
   </header>
+  <div class="content">
+    <h1><span>Hi</span>, I am <span>Jacob Russell</span>. A professional <span>Software Engineer</span> with a focus
+    on <span>Website Development and Design</span>.</h1>
+  </div>
 </div>
 
 <?php include_once 'partials/footer.php'; ?>
