@@ -60,12 +60,23 @@ html, body {
     text-decoration: none;
     color: #fff;
     font-size: 2em;
-    padding: 5px; }
+    padding: 5px;
+    font-family: "Merriweather", serif; }
+    .menu-expanded a:hover {
+      color: #ffc107;
+      -moz-transition: .5s;
+      -webkit-transition: .5s;
+      transition: .5s; }
 
 /* Content
 ===================== */
 .content h1 span {
   color: #ffc107; }
+
+.title-area {
+  background-color: #F2F2F2; }
+  .title-area h1 {
+    margin: 0; }
 
 /* Grid
 ===================== */
@@ -86,5 +97,10 @@ html, body {
     width: 1170px; } }
 /* Media Queries
 ===================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif; }
+
+p {
+  font-family: "Merriweather Sans", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

@@ -76,6 +76,14 @@ html, body {
     color: #fff;
     font-size: 2em;
     padding: 5px;
+    font-family: $title-font;
+
+    &:hover {
+      color: $accent-color;
+      -moz-transition: .5s;
+      -webkit-transition: .5s;
+      transition: .5s;
+    }
   }
 }
 
@@ -83,6 +91,14 @@ html, body {
 ===================== */
 .content h1 span {
   color: $accent-color;
+}
+
+.title-area {
+  background-color: #F2F2F2;
+
+  h1 {
+    margin: 0;
+  }
 }
 
 
