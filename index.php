@@ -22,16 +22,14 @@
         on <span>Website Development and Design</span>.</h1>
       </div>
     </div>
-      <p>Hi there what are you doing.</p>
-      <h1>Hellool aodasodmaomd asomdasmdmoadmam  oamsdma mdmao dasodm asodmam mdasmomd asmdoam
-       saomdoamodmaosmd mamdmasod accesskey="as domaoda mdosamdo amodmoamdmoams oda "daom oa
-      asomdoam dmaosm dmamod m</h1>
-      <h1>Hellool aodasodmaomd asomdasmdmoadmam  oamsdma mdmao dasodm asodmam mdasmomd asmdoam
-       saomdoamodmaosmd mamdmasod accesskey="as domaoda mdosamdo amodmoamdmoams oda "daom oa
-      asomdoam dmaosm dmamod m</h1>
-      <h1>Hellool aodasodmaomd asomdasmdmoadmam  oamsdma mdmao dasodm asodmam mdasmomd asmdoam
-       saomdoamodmaosmd mamdmasod accesskey="as domaoda mdosamdo amodmoamdmoams oda "daom oa
-      asomdoam dmaosm dmamod m</h1>
+    <div class="display-area">
+      <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+    </div>
   </div>
 </div>
 
