@@ -22,7 +22,7 @@ html, body {
   min-height: 200px;
 
   h1 {
-    padding: 50px 0px 45px 0;
+    padding: 80px 0px 45px 0;
     margin: 0;
     text-align: center;
   }
@@ -32,8 +32,8 @@ html, body {
   padding: 10px 40px 10px 10px;
   cursor: pointer;
   font-size: 30px;
-  background-color: rgba(139, 139, 139, 0.7);
-  border-radius: 5px;
+  background-color: rgba(96, 125, 139, 0.6);
+  border-radius: 0px; // Not sure
   border: 2px solid $accent-color;
 }
 
@@ -94,13 +94,19 @@ html, body {
 ===================== */
 
 // Title Area
-.content h1 span {
+.content span {
   color: $accent-color;
+}
+
+.content p {
+  margin-top: 30px;
+  font-size: 18px;
 }
 
 .title-area {
   background-color: #F2F2F2;
   padding: 30px 0 30px 0;
+  text-align: center;
 
   h1 {
     margin: 0;
@@ -147,6 +153,3 @@ html, body {
 
 /* Media Queries
 ===================== */
-@media screen and (min-width: 768px) {
-
-}

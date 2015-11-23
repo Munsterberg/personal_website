@@ -14,10 +14,10 @@ html, body {
 ===================== */
 .main-header {
   width: 100%;
-  background-color: #27ae60;
+  background-color: #00BCD4;
   min-height: 200px; }
   .main-header h1 {
-    padding: 50px 0px 45px 0;
+    padding: 80px 0px 45px 0;
     margin: 0;
     text-align: center; }
 
@@ -25,9 +25,9 @@ html, body {
   padding: 10px 40px 10px 10px;
   cursor: pointer;
   font-size: 30px;
-  background-color: rgba(139, 139, 139, 0.7);
-  border-radius: 5px;
-  border: 2px solid #ffc107; }
+  background-color: rgba(96, 125, 139, 0.6);
+  border-radius: 0px;
+  border: 2px solid #607D8B; }
 
 .nav-hidden {
   display: none; }
@@ -66,19 +66,24 @@ html, body {
     padding: 5px;
     font-family: "Merriweather", serif; }
     .menu-expanded a:hover {
-      color: #ffc107;
+      color: #607D8B;
       -moz-transition: .5s;
       -webkit-transition: .5s;
       transition: .5s; }
 
 /* Content
 ===================== */
-.content h1 span {
-  color: #ffc107; }
+.content span {
+  color: #607D8B; }
+
+.content p {
+  margin-top: 30px;
+  font-size: 18px; }
 
 .title-area {
   background-color: #F2F2F2;
-  padding: 30px 0 30px 0; }
+  padding: 30px 0 30px 0;
+  text-align: center; }
   .title-area h1 {
     margin: 0; }
 
