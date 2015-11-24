@@ -14,8 +14,9 @@ html, body {
 ===================== */
 .main-header {
   width: 100%;
-  background-color: #00BCD4;
-  min-height: 200px; }
+  background-color: #0d8549;
+  min-height: 200px;
+  text-align: center; }
   .main-header h1 {
     padding: 80px 0px 45px 0;
     margin: 0;
@@ -25,9 +26,9 @@ html, body {
   padding: 10px 40px 10px 10px;
   cursor: pointer;
   font-size: 30px;
-  background-color: rgba(96, 125, 139, 0.6);
+  background-color: rgba(58, 61, 68, 0.4);
   border-radius: 0px;
-  border: 2px solid #607D8B; }
+  border: 2px solid #3a3d44; }
 
 .nav-hidden {
   display: none; }
@@ -66,15 +67,19 @@ html, body {
     padding: 5px;
     font-family: "Merriweather", serif; }
     .menu-expanded a:hover {
-      color: #607D8B;
+      color: #f9c11c;
       -moz-transition: .5s;
       -webkit-transition: .5s;
       transition: .5s; }
 
+.logo {
+  display: block;
+  padding: 50px 0px 50px 0px; }
+
 /* Content
 ===================== */
 .content span {
-  color: #607D8B; }
+  color: #b2085d; }
 
 .content p {
   margin-top: 30px;
@@ -93,6 +98,8 @@ html, body {
   height: 300px;
   margin: 30px 0 30px 0; }
 
+/* Footer
+===================== */
 /* Grid
 ===================== */
 .container {
