@@ -1,5 +1,21 @@
         <footer>
-          
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <form action="">
+                  <div class="form-group">
+                    <label for="emailInput">Email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Email Address">
+                  </div>
+                  <div class="form-group">
+                    <label for="messageInput">Message</label>
+                    <textarea name="" id="messageInput" class="form-control" cols="30" rows="3" placeholder="Message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-hover">Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
