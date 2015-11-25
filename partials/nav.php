@@ -9,5 +9,5 @@
       </ul>
     </nav>
   </div>
-  <div class="logo"><img src="../logo1.png" alt=""></div>
+  <div class="logo"><a href="/"><img src="../logo1.png" alt=""></a></div>
 </header>

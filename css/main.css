@@ -98,6 +98,12 @@ html, body {
   height: 300px;
   margin: 30px 0 30px 0; }
 
+.display-area {
+  padding: 50px 0 35px 0;
+  min-height: 600px; }
+  .display-area img {
+    margin-bottom: 15px; }
+
 /* Footer
 ===================== */
 footer {
@@ -122,7 +128,7 @@ p {
   font-family: "Merriweather Sans", sans-serif; }
 
 label {
-  font-family: "Merriweather Sans", sans-serif; }
+  font-family: "Merriweather", serif; }
 
 .btn {
   position: relative;
@@ -139,7 +145,6 @@ label {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  box-shadow: 0 0 1px transparent;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;

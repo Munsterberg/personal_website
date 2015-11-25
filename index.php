@@ -16,11 +16,11 @@
       </div>
     </div>
     <div class="display-area">
-      <div class="container">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
+      <div class="fluid-container">
+        <a href="#"><img class="col-md-4" src="/img/munsterberg.jpg" alt=""></a>
+        <a href="#"><img class="col-md-4" src="/img/nerdoradeorig.jpg" alt=""></a>
+        <a href="#"><img class="col-md-4" src="/img/turnkeyss.jpg" alt=""></a>
+        <a href="#"><img class="col-md-4" src="/img/nodeblog.jpg" alt=""></a>
       </div>
     </div>
   </div>
