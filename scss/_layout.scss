@@ -18,7 +18,7 @@ html, body {
 ===================== */
 .main-header {
   width: 100%;
-  background-color: $green-color;
+  background-color: $dark-color;
   min-height: 200px;
   text-align: center;
 
@@ -33,7 +33,7 @@ html, body {
   padding: 10px 40px 10px 10px;
   cursor: pointer;
   font-size: 30px;
-  background-color: rgba(58, 61, 68, 0.4);
+  background-color: rgba(208, 208, 208, 0.6);
   border-radius: 0px; // Not sure
   border: 2px solid $dark-color;
 }
@@ -133,13 +133,21 @@ html, body {
 
     img {
       margin-bottom: 15px;
+      transition: all .5s ease-in-out;
+      -webkit-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+
+      &:hover {
+        transform: scale(1.05);
+      }
     }
 }
 
 /* Footer
 ===================== */
 footer {
-  background-color: $red-color;
+  background-color: $dark-color;
   padding: 20px 0 20px 0;
 }
 

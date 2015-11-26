@@ -5,7 +5,7 @@
   font-family: $body-font;
   text-decoration: none;
   color: #fff;
-  background-color: $dark-color;
+  background-color: $red-color;
   border: 1px solid transparent;
   padding: 0.5em 2em 0.5em 2em;
 }
@@ -31,7 +31,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: $green-color;
+      background: $yellow-color;
       -webkit-transform: scaleX(0);
       transform: scaleX(0);
       -webkit-transform-origin: 0 50%;
