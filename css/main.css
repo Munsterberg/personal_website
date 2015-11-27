@@ -120,8 +120,41 @@ label {
   color: #fff;
   font-size: 18px; }
 
+footer h2 {
+  font-family: "Merriweather", serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 25px; }
+
+footer p {
+  color: #ffffff;
+  line-height: 25px; }
+
 .form-control {
   border-radius: 0px; }
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px; }
+  footer ul a {
+    font-family: "Merriweather Sans", sans-serif;
+    color: #fff;
+    text-decoration: none; }
+    footer ul a:hover {
+      color: #f9c11c;
+      text-decoration: none; }
+
+.social-icons {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px; }
+  .social-icons a {
+    color: #fff;
+    margin-left: 5px; }
+    .social-icons a:hover {
+      color: #f9c11c; }
 
 /* Grid
 ===================== */
@@ -134,7 +167,7 @@ p {
   font-family: "Merriweather Sans", sans-serif; }
 
 label {
-  font-family: "Merriweather", serif; }
+  font-family: "Merriweather Sans", sans-serif; }
 
 .btn {
   position: relative;
@@ -142,8 +175,8 @@ label {
   overflow: hidden;
   font-family: "Merriweather Sans", sans-serif;
   text-decoration: none;
-  color: #fff;
-  background-color: #b2085d;
+  color: #000000;
+  background-color: #ffffff;
   border: 1px solid transparent;
   padding: 0.5em 2em 0.5em 2em; }
 

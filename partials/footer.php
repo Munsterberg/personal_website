@@ -1,7 +1,8 @@
         <footer>
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-4">
+                <h2>Contact</h2>
                 <form action="">
                   <div class="form-group">
                     <label for="emailInput">Email</label>
@@ -13,6 +14,28 @@
                   </div>
                   <button type="submit" class="btn btn-hover">Send</button>
                 </form>
+              </div>
+              <div class="col-md-4">
+                <h2>About</h2>
+                <p>I am a Computer Science student that fell in love with web related
+                programming. I am currently using Django to create web applications for
+                clients. Although I love it for my own reasons, I can still create
+                applications using PHP/Laravel or Node.js/MEAN, and more recent
+                tools. Don't be afraid to contact me with questions,
+                I have experience using many languages and frameworks.</p>
+              </div>
+              <div class="col-md-4">
+                <h2>Links</h2>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Work</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="social-icons">
+                  <a href="#"><i class="fa fa-github"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
               </div>
             </div>
           </div>

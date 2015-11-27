@@ -156,8 +156,53 @@ label {
   font-size: 18px;
 }
 
+footer h2 {
+  font-family: $title-font;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+footer p {
+  color: #ffffff;
+  line-height: 25px;
+}
+
 .form-control {
   border-radius: 0px;
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+
+  a {
+    font-family: $body-font;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: $yellow-color;
+      text-decoration: none;
+    }
+  }
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+
+  a {
+    color: #fff;
+    margin-left: 5px;
+
+    &:hover {
+      color: $yellow-color;
+    }
+  }
 }
 
 /* Grid
