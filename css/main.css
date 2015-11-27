@@ -140,10 +140,10 @@ footer ul {
   margin-top: 30px; }
   footer ul a {
     font-family: "Merriweather Sans", sans-serif;
-    color: #fff;
+    color: #f9c11c;
     text-decoration: none; }
     footer ul a:hover {
-      color: #f9c11c;
+      color: #FFDD7A;
       text-decoration: none; }
 
 .social-icons {
@@ -151,10 +151,10 @@ footer ul {
   margin-top: 30px;
   font-size: 25px; }
   .social-icons a {
-    color: #fff;
+    color: #f9c11c;
     margin-left: 5px; }
     .social-icons a:hover {
-      color: #f9c11c; }
+      color: #FFDD7A; }
 
 /* Grid
 ===================== */

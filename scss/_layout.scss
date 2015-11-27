@@ -180,11 +180,11 @@ footer ul {
 
   a {
     font-family: $body-font;
-    color: #fff;
+    color: $yellow-color;
     text-decoration: none;
 
     &:hover {
-      color: $yellow-color;
+      color: #FFDD7A;
       text-decoration: none;
     }
   }
@@ -196,11 +196,11 @@ footer ul {
   font-size: 25px;
 
   a {
-    color: #fff;
+    color: $yellow-color;
     margin-left: 5px;
 
     &:hover {
-      color: $yellow-color;
+      color: #FFDD7A;
     }
   }
 }
