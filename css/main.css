@@ -118,7 +118,7 @@ footer {
 
 label {
   color: #fff;
-  font-size: 18px; }
+  font-size: 15px; }
 
 footer h2 {
   font-family: "Merriweather", serif;
@@ -137,7 +137,7 @@ footer ul {
   list-style-type: none;
   text-align: center;
   font-size: 18px;
-  margin-top: 30px; }
+  margin-top: 50px; }
   footer ul a {
     font-family: "Merriweather Sans", sans-serif;
     color: #f9c11c;
@@ -160,6 +160,18 @@ footer ul {
 ===================== */
 /* Media Queries
 ===================== */
+/* Contact Page
+===================== */
+.profile-img {
+  display: block;
+  margin: 30px auto 30px auto;
+  border-radius: 100px; }
+
+.profile-area {
+  text-align: center; }
+  .profile-area h1 {
+    color: #b2085d; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweather", serif; }
 
