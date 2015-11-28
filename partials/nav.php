@@ -3,9 +3,9 @@
     <div class="nav-trigger"><i class="fa fa-bars"></i></div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/contact.php">Contact</a></li>
       </ul>
     </nav>
   </div>

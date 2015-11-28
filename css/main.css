@@ -81,7 +81,7 @@ html, body {
 .content span {
   color: #b2085d; }
 
-.content p {
+.title-area p {
   margin-top: 30px;
   font-size: 18px; }
 
@@ -168,9 +168,12 @@ footer ul {
   border-radius: 100px; }
 
 .profile-area {
-  text-align: center; }
+  padding-bottom: 30px; }
   .profile-area h1 {
-    color: #b2085d; }
+    color: #b2085d;
+    text-align: center; }
+  .profile-area h2 {
+    margin-top: 20px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweather", serif; }
