@@ -32,8 +32,8 @@
                   <li><a href="/info.php">Info</a></li>
                 </ul>
                 <div class="social-icons">
-                  <a href="#"><i class="fa fa-github"></i></a>
-                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://github.com/Munsterberg"><i class="fa fa-github"></i></a>
+                  <a href="https://www.linkedin.com/profile/view?id=AAMAABMrbvoBD8CTlDcks9GGwsdNOHU-CknoW4M&trk=hp-identity-photo"><i class="fa fa-linkedin"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a>
                 </div>
               </div>
