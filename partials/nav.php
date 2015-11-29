@@ -5,7 +5,7 @@
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="#">Work</a></li>
-        <li><a href="/contact.php">Contact</a></li>
+        <li><a href="/info.php">Info</a></li>
       </ul>
     </nav>
   </div>

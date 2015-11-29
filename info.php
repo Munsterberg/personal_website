@@ -6,7 +6,7 @@
     <div class="container">
       <div class="profile-area">
         <img src="/img/me.jpg" class="profile-img" alt="A picture of Jacob Russell">
-        <h1>The process!</h1>
+        <h1>The Process!</h1>
         <h2>THE BRIEF</h2>
         <p>The brief is the most important phase. I will usually meet with the client to go over many detailed
         questions. This part is often overlooked by a lot of freelance developers, but it ensures you will
