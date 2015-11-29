@@ -28,7 +28,7 @@
                 <h2>Links</h2>
                 <ul>
                   <li><a href="/">Home</a></li>
-                  <li><a href="#">Work</a></li>
+                  <li><a href="/work.php">Work</a></li>
                   <li><a href="/info.php">Info</a></li>
                 </ul>
                 <div class="social-icons">

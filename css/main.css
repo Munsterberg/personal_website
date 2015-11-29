@@ -175,6 +175,16 @@ footer ul {
   .profile-area h2 {
     margin-top: 20px; }
 
+/* Work Page
+===================== */
+.resume h2 {
+  color: #b2085d; }
+.resume h3 {
+  margin: 20px 0 10px 0;
+  color: #b2085d; }
+.resume ul {
+  margin-bottom: 20px; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweather", serif; }
 
