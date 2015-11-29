@@ -1,3 +1,4 @@
+<?php $title = 'Home'; ?>
 <?php include_once 'partials/head.php'; ?>
 
 <?php include_once 'partials/nav.php'; ?>
@@ -16,10 +17,10 @@
   </div>
   <div class="display-area">
     <div class="container-fluid">
-      <a href="#"><img class="col-md-4 img-responsive" src="/img/munsterberg.jpg" alt=""></a>
-      <a href="#"><img class="col-md-4 img-responsive" src="/img/nerdorade.jpg" alt=""></a>
-      <a href="#"><img class="col-md-4 img-responsive" src="/img/turnkeyss.jpg" alt=""></a>
-      <a href="#"><img class="col-md-4 img-responsive" src="/img/nodeblog.jpg" alt=""></a>
+      <a href="construction.php"><img class="col-md-4 img-responsive" src="/img/munsterberg.jpg" alt=""></a>
+      <a href="construction.php"><img class="col-md-4 img-responsive" src="/img/nerdorade.jpg" alt=""></a>
+      <a href="construction.php"><img class="col-md-4 img-responsive" src="/img/turnkeyss.jpg" alt=""></a>
+      <a href="construction.php"><img class="col-md-4 img-responsive" src="/img/nodeblog.jpg" alt=""></a>
     </div>
   </div>
 </div>
